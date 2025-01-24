@@ -48,4 +48,23 @@ export default tseslint.config({
   },
 })
 ```
-# react-mini-app
+# Husky
+  Husky helps you to run custom scripts against your Git commits and pushes.
+
+### Setting up Husky
+
+```bash
+  npm install --save-dev husky
+
+```bash
+  npx husky init
+
+
+# Commitlint
+Commintlint is a tool that helps us define commit conventions.
+
+### Setting up Commitlint
+
+```bash
+  npm i --save-dev @commitlint/config-conventional @commitlint/cli
+
