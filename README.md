@@ -55,9 +55,11 @@ export default tseslint.config({
 
 ```bash
   npm install --save-dev husky
+```
 
 ```bash
   npx husky init
+```
 
 
 # Commitlint
@@ -67,4 +69,5 @@ Commintlint is a tool that helps us define commit conventions.
 
 ```bash
   npm i --save-dev @commitlint/config-conventional @commitlint/cli
+```
 
