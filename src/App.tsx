@@ -1,5 +1,6 @@
 import './App.css'
-import DynamicWidthCalculator from './concepts/useReducer/DynamicWidthCalculator'
+import ParentComponent from './concepts/memo/ChildParent'
+// import DynamicWidthCalculator from './concepts/useReducer/DynamicWidthCalculator'
 // import DebounceSearchBarComponent from './concepts/throttle-and-debounce/Debounce'
 // import ThrottledScrollComponent from './concepts/throttle-and-debounce/Throttle'
 // import UseReducerForm from './concepts/useReducer/UseReducer'
@@ -11,7 +12,8 @@ function App() {
       {/* <ThrottledScrollComponent/> */}
       {/* <DebounceSearchBarComponent/> */}
       {/* <UseReducerForm/> */}
-      <DynamicWidthCalculator/>
+      {/* <DynamicWidthCalculator/> */}
+      <ParentComponent/>
     </>
   )
 }
