@@ -1,3 +1,6 @@
+//HOOKS DEF: In React, hooks are special functions that allow developers to use state and other React features within
+//  functional components without needing to write class components.
+
 //Definition: This hook gives us an easy way to organize our state management.
 
 //This hook is like useState but with additions features, you can think of this as a superset of useState,
